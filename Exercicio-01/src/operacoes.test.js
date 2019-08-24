@@ -13,7 +13,7 @@ test('Somar dois número: 2 + 3:  ', ()=>{
 });
 
 
-///Subtração f
+///Subtração
 test('Subtrair dois número: 5 - 3: ', ()=>{
     expect(subtracao(5,3)).not.toBe(2);
 });
