@@ -1,5 +1,5 @@
 function soma(a, b) {
-    return (a + b); 
+   return (a + b)
 }
 
 function subtracao(a, b) {
@@ -12,7 +12,7 @@ function multiplicacao(a, b) {
 
 function divisao(a, b) {
     if(b === 0) return 0;
-    return a / b; 
+    return (a / b); 
 }
 
 module.exports = (soma,subtracao,multiplicacao,divisao);
