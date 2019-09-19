@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teste de renderização do camponente INICIO Verificar se a página Inicial e carregada adequadamente 1`] = `
+<div>
+  <Menu
+    logo="logo.png"
+    paginaAnterior="/"
+    titulo="Lista de Compras"
+  />
+  <div
+    className="conteiner"
+  >
+    <div>
+      <p
+        id="mensagemNenhumaLista"
+      >
+        Clique no botão abaixo para cadastrar uma nova lista!
+      </p>
+      <div
+        id="listagem"
+      />
+      <div
+        id="areaBotao"
+      >
+        <Link
+          to="/criarlista"
+        >
+          <div
+            id="botaoNovaLista"
+          >
+            <img
+              alt="Nova lista"
+              src="adicionar.png"
+            />
+          </div>
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+`;

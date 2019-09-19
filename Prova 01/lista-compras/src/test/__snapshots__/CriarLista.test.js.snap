@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teste de renderização do camponente CRIAR LISTA Verificar se a página Inicial e carregada adequadamente 1`] = `
+<div>
+  <Menu
+    logo="paginaAnterior.png"
+    paginaAnterior="/"
+    titulo="Criar lista"
+  />
+  <form
+    id="formNovaLista"
+    onSubmit={[Function]}
+  >
+    <input
+      name="nome"
+      onChange={[Function]}
+      placeholder="Digite o nome da lista"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      type="submit"
+      value="Criar"
+    />
+  </form>
+</div>
+`;
