@@ -1,0 +1,341 @@
+{
+  "id": "bf4d8d45-80b5-4dd9-8e2c-c56beb01ecbd",
+  "version": "2.0",
+  "name": "Teste Acadêmico",
+  "url": "http://academico.ifms.edu.br/inicio",
+  "tests": [{
+    "id": "6488e47e-b2f5-455f-b669-3076d8cf5a11",
+    "name": "Login Sucesso",
+    "commands": [{
+      "id": "e4f75ed6-7af6-4d98-ab07-8fde08ef2b97",
+      "comment": "",
+      "command": "open",
+      "target": "http://academico.ifms.edu.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f2c181f-136a-4bbf-b9c4-3889dfab2c57",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1356x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c25eb485-a213-4692-969d-55b2d698c912",
+      "comment": "",
+      "command": "type",
+      "target": "id=cpf",
+      "targets": [
+        ["id=cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#cpf", "css:finder"],
+        ["xpath=//input[@id='cpf']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/div/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "06920796104"
+    }, {
+      "id": "1e0f00f1-7e9d-4f91-989a-6791f41f41de",
+      "comment": "",
+      "command": "click",
+      "target": "id=data-nascimento",
+      "targets": [
+        ["id=data-nascimento", "id"],
+        ["name=data_nascimento", "name"],
+        ["css=#data-nascimento", "css:finder"],
+        ["xpath=//input[@id='data-nascimento']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/div/div/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6f0e32a-ad24-44c2-a020-2bd4dc41781f",
+      "comment": "",
+      "command": "type",
+      "target": "id=data-nascimento",
+      "targets": [
+        ["id=data-nascimento", "id"],
+        ["name=data_nascimento", "name"],
+        ["css=#data-nascimento", "css:finder"],
+        ["xpath=//input[@id='data-nascimento']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/div/div/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "08/01/1997"
+    }, {
+      "id": "bd310144-cd70-4449-bee7-ad08197260ab",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b8fcc23-4a3a-4775-bb2d-b55fdd5e6aa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f2f8ffa-b411-4c4a-8783-3cc804e314d7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a993567-685a-4fea-a007-cd4a573db6d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='conteudo']/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92f69e82-150d-4adc-8312-b364e7c557d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(1) > .outstanding-title",
+      "targets": [
+        ["css=.col-sm-12:nth-child(1) > .outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Olá, Wellington')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2721a60c-64f5-4b85-9ffa-12e041e966cb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Wellington')]", "xpath:innerText"]
+      ],
+      "value": "Wellington"
+    }]
+  }, {
+    "id": "68cccaad-cd18-4b38-af9b-42c11b7c6af7",
+    "name": "Verificar Menu",
+    "commands": [{
+      "id": "35a4258e-9fa2-4e40-a1cc-dabde050d9e0",
+      "comment": "",
+      "command": "open",
+      "target": "http://academico.ifms.edu.br/inicio",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a66494e-64a7-4197-a729-538bb00dae12",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1354x716",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b41363d-c10a-4771-9cde-b98f751fd85b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portletItem:nth-child(2) .navTreeItem:nth-child(1) span",
+      "targets": [
+        ["css=.portletItem:nth-child(2) .navTreeItem:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='tudo']/div[3]/div/div/div/dl[2]/dd/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//dl[2]/dd/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Dados Pessoais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e76d25-3460-4729-994f-6a5fcb334b91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Dados Pessoais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e416519-3639-4dff-83b7-914f1fcdddea",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Dados Pessoais')]", "xpath:innerText"]
+      ],
+      "value": "Dados Pessoais"
+    }, {
+      "id": "88ceb71e-445e-40f1-9e87-2d54fbaeb687",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navTreeItem:nth-child(2) span",
+      "targets": [
+        ["css=.navTreeItem:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='tudo']/div[3]/div/div/div/dl[2]/dd/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Unidades Curriculares em Curso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18c8c9e1-30f1-437f-bdf9-7f96ab83b509",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Unidades Curriculares em Curso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba82c3af-51f4-43c0-88e6-fed3fa5d6044",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Unidades Curriculares em Curso')]", "xpath:innerText"]
+      ],
+      "value": "Unidades Curriculares em Curso"
+    }, {
+      "id": "75d86160-8743-435b-8b99-f90af99ad09e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navTreeItem:nth-child(3) span",
+      "targets": [
+        ["css=.navTreeItem:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='tudo']/div[3]/div/div/div/dl[2]/dd/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Notas e Frequência')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1815fa89-79ea-46ec-aa5a-f0a6d1ef48ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Notas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f235979-ec6b-4ea6-9111-68a49629223d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Notas')]", "xpath:innerText"]
+      ],
+      "value": "Notas"
+    }, {
+      "id": "45af6e4b-f323-49e1-8d0b-d94bccaf6cc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navTreeItem:nth-child(4) span",
+      "targets": [
+        ["css=.navTreeItem:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='tudo']/div[3]/div/div/div/dl[2]/dd/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Boletim Escolar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "007d4d69-c26a-4e50-ab15-5bd762358705",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Boletim Escolar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64664283-e1a4-4f92-bdcd-3c4200f49d42",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Boletim Escolar')]", "xpath:innerText"]
+      ],
+      "value": "Boletim Escolar"
+    }, {
+      "id": "e2aa5587-7a02-4fe6-9c9b-4efd706dcd86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navTreeItem:nth-child(5) span",
+      "targets": [
+        ["css=.navTreeItem:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='tudo']/div[3]/div/div/div/dl[2]/dd/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Biblioteca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9377f5d-b412-47e4-8546-84994d8bd684",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Biblioteca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d341e4b-f3c8-440d-9bea-e309a72ffdfd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.outstanding-title",
+      "targets": [
+        ["css=.outstanding-title", "css:finder"],
+        ["xpath=//div[@id='conteudo']/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Biblioteca')]", "xpath:innerText"]
+      ],
+      "value": "Biblioteca"
+    }]
+  }],
+  "suites": [{
+    "id": "94d22729-584f-4b30-9015-1cad31f695b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://academico.ifms.edu.br/", "http://academico.ifms.edu.br/inicio"],
+  "plugins": []
+}
